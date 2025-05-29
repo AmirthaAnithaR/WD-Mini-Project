@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dreams Dwellers - Travel Agency</title>
+    <link rel="stylesheet" href="Tour.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <h1>Dreams Dwellers</h1>
+        <nav>
+            <ul>
+                <li><a href="#"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="#destinations"><i class="fas fa-map-marker-alt"></i> Destinations</a></li>
+                <li><a href="#offers"><i class="fas fa-tags"></i> Special Offers</a></li>
+                <li><a href="#contact"><i class="fas fa-envelope"></i> Contact Us</a></li>
+                <li><a href="login.html"><i class="fas fa-sign-in-alt"></i> Login</a></li>
+                <li><a href="signup.html"><i class="fas fa-user-plus"></i> Sign Up</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <div class="hero-content">
+            <h2>Discover Your Next Adventure</h2>
+            <p>Explore amazing destinations and create unforgettable memories.</p>
+            <button class="cta-button">Book Your Trip Now</button>
+        </div>
+    </section>
+
+    <section id="destinations" class="section">
+        <h2>Popular Destinations</h2>
+        <div class="destinations-grid">
+            <!-- Paris -->
+            <div class="destination-card">
+                <img src="Paris.jpg" alt="Paris">
+                <h3>Paris, France</h3>
+                <p>The city of love and lights.</p>
+                <button class="view-details" 
+                        data-title="Paris, France" 
+                        data-image="Paris.jpg" 
+                        data-price="₹85,000"
+                        data-duration="7 Days"
+                        data-includes="Flight, 4-star hotel, Daily breakfast, City tour, Eiffel Tower visit">
+                    View Details
+                </button>
+            </div>
+
+            <!-- Bali -->
+            <div class="destination-card">
+                <img src="bali.webp" alt="Bali">
+                <h3>Bali, Indonesia</h3>
+                <p>Island paradise with stunning beaches.</p>
+                <button class="view-details" 
+                        data-title="Bali, Indonesia" 
+                        data-image="bali.webp" 
+                        data-price="₹65,000"
+                        data-duration="6 Days"
+                        data-includes="Flight, Beach resort, Breakfast, Temple tours, Water sports">
+                    View Details
+                </button>
+            </div>
+
+            <!-- Machu Picchu -->
+            <div class="destination-card">
+                <img src="machupichu.jpg" alt="Machu Picchu">
+                <h3>Machu Picchu, Peru</h3>
+                <p>Ancient Inca citadel high in the Andes.</p>
+                <button class="view-details" 
+                        data-title="Machu Picchu, Peru" 
+                        data-image="machupichu.jpg" 
+                        data-price="₹1,20,000"
+                        data-duration="10 Days"
+                        data-includes="Flight, 3-star hotels, Guided tours, Train to Machu Picchu, All entrance fees">
+                    View Details
+                </button>
+            </div>
+
+            <!-- Delhi -->
+            <div class="destination-card">
+                <img src="India.jpg" alt="Delhi">
+                <h3>Delhi, India</h3>
+                <p>The heart of India with a royal past.</p>
+                <button class="view-details" 
+                        data-title="Delhi, India" 
+                        data-image="India.jpg" 
+                        data-price="₹25,000"
+                        data-duration="5 Days"
+                        data-includes="5-star hotel, Breakfast, City tour, Monument entries, Guide">
+                    View Details
+                </button>
+            </div>
+
+            <!-- Edinburgh -->
+            <div class="destination-card">
+                <img src="Edinburgh.avif" alt="Edinburgh">
+                <h3>Edinburgh, Scotland</h3>
+                <p>Step into history and charm.</p>
+                <button class="view-details" 
+                        data-title="Edinburgh, Scotland" 
+                        data-image="Edinburgh.avif" 
+                        data-price="₹95,000"
+                        data-duration="6 Days"
+                        data-includes="Flight, 4-star hotel, Breakfast, Castle tour, Whisky tasting">
+                    View Details
+                </button>
+            </div>
+
+            <!-- Dubai -->
+            <div class="destination-card">
+                <img src="Dubainew.jpg" alt="Dubai">
+                <h3>Dubai, UAE</h3>
+                <p>Iconic skyline and luxurious lifestyle.</p>
+                <button class="view-details" 
+                        data-title="Dubai, UAE" 
+                        data-image="Dubainew.jpg" 
+                        data-price="₹75,000"
+                        data-duration="5 Days"
+                        data-includes="Flight, 5-star hotel, Desert safari, Burj Khalifa entry, Dhow cruise">
+                    View Details
+                </button>
+            </div>
+
+            <!-- Switzerland -->
+            <div class="destination-card">
+                <img src="Swizz.png" alt="Switzerland">
+                <h3>Matterhorn, Switzerland</h3>
+                <p>Discover the magic of the Alps.</p>
+                <button class="view-details" 
+                        data-title="Matterhorn, Switzerland" 
+                        data-image="Swizz.png" 
+                        data-price="₹1,50,000"
+                        data-duration="8 Days"
+                        data-includes="Flight, Mountain resorts, Breakfast, Train passes, Ski equipment">
+                    View Details
+                </button>
+            </div>
+            <div class="destination-card">
+                <img src="Maldives.webp" alt="Maldives">
+                <h3>Hulhumale, Maldives</h3>
+                <p>Escape to turquoise paradise.</p>
+                <button class="view-details" 
+                        data-title="Hulhumale, Maldives" 
+                        data-image="Maldives.webp" 
+                        data-price="₹90,000"
+                        data-duration="5 Days"
+                        data-includes="Flight, Overwater villa, All meals, Snorkeling, Sunset cruise">
+                    View Details
+                </button>
+            </div>
+           <!-- Kyoto, Japan -->
+<!-- Kyoto, Japan -->
+<div class="destination-card">
+    <img src="kyoto.jpg" alt="Kyoto">
+    <h3>Kyoto, Japan</h3>
+    <p>Ancient temples and cherry blossoms.</p>
+    <button class="view-details" 
+            data-title="Kyoto, Japan" 
+            data-image="kyoto.jpg" 
+            data-price="₹1,10,000"
+            data-duration="8 Days"
+            data-includes="Flight, Ryokan stay, Daily breakfast, Temple tours, Tea ceremony, Bullet train ticket, Geisha district visit">
+        View Details
+    </button>
+</div>
+
+        </div>
+    </section>
+
+    <section id="offers" class="section">
+        <h2>Special Offers</h2>
+        <div class="offers-list">
+            <div class="offer-item">
+                <h3>Summer Getaway to Greece</h3>
+                <p>Enjoy 20% off on all Greece tours this summer!</p>
+                <button class="view-offer">See Offer</button>
+            </div>
+            <div class="offer-item">
+                <h3>Adventure in the Himalayas</h3>
+                <p>Book a trekking expedition and get a free camping gear set.</p>
+                <button class="view-offer">See Offer</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <h2>Contact Us</h2>
+        <p>Have a question or need help planning your trip? Contact us!</p>
+        <form id="contact-form">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="submit-button">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Dreams Dwellers. All rights reserved.</p>
+        <div class="social-links">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+    </footer>
+
+    <div id="detailsModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h3 id="modal-title"></h3>
+            <img id="modal-image" src="" alt="" style="width: 100%; max-height: 300px; object-fit: cover; margin: 10px 0;">
+            <div class="modal-details-content">
+                <p><strong>Package Price:</strong> <span id="modal-price" style="color: #e74c3c; font-weight: bold;"></span></p>
+                <p><strong>Duration:</strong> <span id="modal-duration"></span></p>
+                <p><strong>Includes:</strong></p>
+                <ul id="modal-includes" style="margin-left: 20px;"></ul>
+            </div>
+            <button id="book-ticket" class="book-button">Book This Package for <span id="modal-price-button"></span></button>
+        </div>
+    </div>
+
+    <script src="Journey.js"></script>
+</body>
+</html>
